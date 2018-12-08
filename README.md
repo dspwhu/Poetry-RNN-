@@ -8,7 +8,7 @@
 
 ```Python
 pip install -r requirements.txt
-
+```
 ## 训练
 训练的命令如下：
 
