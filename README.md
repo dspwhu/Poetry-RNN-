@@ -75,7 +75,7 @@ python2 main.py gen  --model-path='checkpoints/tang_199.pth'
 
 - 藏头诗
 ```Bash
- python3  main.py gen  --model-path='checkpoints/tang_199.pth' \
+ python  main.py gen  --model-path='checkpoints/tang_199.pth' \
                                      --pickle-path='tang.npz' \
                                      --start-words='深度学习' \
                                      --prefix-words='江流天地外，山色有无中。' \
@@ -86,7 +86,7 @@ python2 main.py gen  --model-path='checkpoints/tang_199.pth'
 
 - 深度学习开头，七言
 ```Bash
-python2  main.py gen    --model-path='checkpoints/tang_199.pth' \
+python  main.py gen    --model-path='checkpoints/tang_199.pth' \
                         --pickle-path='tang.npz' \
                         --start-words='深度学习' \
                         --prefix-words='庄生晓梦迷蝴蝶，望帝春心托杜鹃。' \
