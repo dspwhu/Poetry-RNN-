@@ -64,7 +64,7 @@ python  main.py gen  --model-path='checkpoints/tang_199.pth' \
 生成其它诗歌的命令如下：
 
 ```Bash
-python2 main.py gen  --model-path='model.pth' 
+python2 main.py gen  --model-path='checkpoints/tang_199.pth' 
 					 --pickle-path='tang.npz' 
 					 --start-words='江流天地外，' # 诗歌的开头
 					 --prefix-words='郡邑浮前浦，波澜动远空。' 
@@ -77,8 +77,8 @@ python2 main.py gen  --model-path='model.pth'
 ```Bash
  python3  main.py gen  --model-path='checkpoints/tang_199.pth' \
                                      --pickle-path='tang.npz' \
-                                     --start-words="深度学习" \
-                                     --prefix-words="江流天地外，山色有无中。" \
+                                     --start-words='深度学习' \
+                                     --prefix-words='江流天地外，山色有无中。' \
                                      --acrostic=True\
                                      --nouse-gpu
 深井松杉下，前山云汉东。度山横北极，飞雪凌苍穹。学稼落羽化，潺湲浸天空。习习时更惬，俯视空林濛。
@@ -88,8 +88,8 @@ python2 main.py gen  --model-path='model.pth'
 ```Bash
 python2  main.py gen    --model-path='checkpoints/tang_199.pth' \
                         --pickle-path='tang.npz' \
-                        --start-words="深度学习" \
-                        --prefix-words="庄生晓梦迷蝴蝶，望帝春心托杜鹃。" \
+                        --start-words='深度学习' \
+                        --prefix-words='庄生晓梦迷蝴蝶，望帝春心托杜鹃。' \
                         --acrostic=False\
                         --nouse-gpu
 深度学习书不怪，今朝月下不胜悲。芒砀月殿春光晓，宋玉堂中夜月升。玉徽美，玉股洁。心似镜，澈圆珠，金炉烟额红芙蕖。红缕金钿舞凤管，夜妆妆妓。歌中有女子孙子，嫁得新年花下埽。君不见金沟里，裴回春日丛。歌舞一声声断，一语中肠千万里。罗帐前传，娉婷花月春，一歌一曲声声。可怜眼，芙蓉露。妾心明，颜色暗相思，主人愁，万重金。红粉，冉冉，芙蓉帐前飞。鸳鸯鬬鸭，绣衣罗帐，鹦鹉抹。凰翠忽，菱管。音舞，行路，蹙罗金钿
